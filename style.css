@@ -6,6 +6,15 @@ body {
   justify-content: center;
   font-family: 'Segoe UI', Verdana, sans-serif;
   background: linear-gradient(135deg, #667eea, #764ba2);
+  transition: background 0.3s;
+}
+
+body.correct-guess {
+  background: linear-gradient(135deg, #27ae60, #2ecc71);
+}
+
+body.wrong-guess {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
 }
 
 .card {
